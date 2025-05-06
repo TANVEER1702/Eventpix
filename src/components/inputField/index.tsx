@@ -12,6 +12,7 @@ interface InputProps {
     | "email"
     | "select"
     | "tel"
+    | "date"
     | "password"
     | "password"; // Input type (e.g., text, email, password)
   value?: string | number | string[] | boolean; // Current value of the input

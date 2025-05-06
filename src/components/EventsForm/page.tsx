@@ -1,8 +1,13 @@
 "use client";
 import React from "react";
 import { InputField } from "../inputField";
+interface EventData {
+  name: string;
+  date: string;
+  location: string;
+}
 
-const EventForm = ({ eventData, setEventData }: { eventData: any, setEventData: any }) => {
+const EventForm = ({ eventData, setEventData }: { eventData: EventData; setEventData: React.Dispatch<React.SetStateAction<EventData>> }) => {
   return (
     <div className="space-y-4">
       <InputField

@@ -1,4 +1,3 @@
-import Login from "@/components/login/page";
 import Register from "@/components/Register/page";
 
 
